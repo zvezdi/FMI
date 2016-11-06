@@ -1,0 +1,89 @@
+13:47:29.517699 IP (tos 0x0, ttl 64, id 49563, offset 0, flags [DF], proto TCP (6), length 125)
+    192.168.0.101.35310 > 149.154.167.91.https: Flags [P.], cksum 0x65cc (correct), seq 285185616:285185689, ack 332117523, win 229, options [nop,nop,TS val 4949501 ecr 377517478], length 73
+13:47:29.546198 IP (tos 0x0, ttl 64, id 37939, offset 0, flags [DF], proto UDP (17), length 73)
+    192.168.0.101.37455 > 192.168.0.1.domain: [udp sum ok] 28815+ PTR? 91.167.154.149.in-addr.arpa. (45)
+13:47:29.550907 IP (tos 0x0, ttl 61, id 53990, offset 0, flags [none], proto UDP (17), length 139)
+    192.168.0.1.domain > 192.168.0.101.37455: [udp sum ok] 28815 NXDomain q: PTR? 91.167.154.149.in-addr.arpa. 0/1/0 ns: 167.154.149.in-addr.arpa. SOA ns.gblnet.net. alex@telegram.org. 2016100700 10800 3600 1209600 10800 (111)
+13:47:29.551140 IP (tos 0x0, ttl 64, id 37940, offset 0, flags [DF], proto UDP (17), length 72)
+    192.168.0.101.59134 > 192.168.0.1.domain: [udp sum ok] 41181+ PTR? 101.0.168.192.in-addr.arpa. (44)
+13:47:29.554792 IP (tos 0x0, ttl 61, id 53991, offset 0, flags [none], proto UDP (17), length 121)
+    192.168.0.1.domain > 192.168.0.101.59134: [udp sum ok] 41181 NXDomain q: PTR? 101.0.168.192.in-addr.arpa. 0/1/0 ns: 168.192.in-addr.arpa. SOA localhost. root. 1 604800 86400 2419200 604800 (93)
+13:47:29.562407 IP (tos 0x80, ttl 58, id 56675, offset 0, flags [DF], proto TCP (6), length 141)
+    149.154.167.91.https > 192.168.0.101.35310: Flags [P.], cksum 0xf180 (correct), seq 1:90, ack 73, win 2555, options [nop,nop,TS val 377528727 ecr 4949501], length 89
+13:47:29.562445 IP (tos 0x0, ttl 64, id 49564, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.0.101.35310 > 149.154.167.91.https: Flags [.], cksum 0x3bf0 (correct), seq 73, ack 90, win 229, options [nop,nop,TS val 4949512 ecr 377528727], length 0
+13:47:30.545750 IP (tos 0x0, ttl 64, id 37977, offset 0, flags [DF], proto UDP (17), length 70)
+    192.168.0.101.54564 > 192.168.0.1.domain: [udp sum ok] 1150+ PTR? 1.0.168.192.in-addr.arpa. (42)
+13:47:30.550472 IP (tos 0x0, ttl 61, id 53992, offset 0, flags [none], proto UDP (17), length 119)
+    192.168.0.1.domain > 192.168.0.101.54564: [udp sum ok] 1150 NXDomain q: PTR? 1.0.168.192.in-addr.arpa. 0/1/0 ns: 168.192.in-addr.arpa. SOA localhost. root. 1 604800 86400 2419200 604800 (91)
+13:47:31.316553 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 201)
+    192.168.0.1.48451 > 255.255.255.255.7437: [udp sum ok] UDP, length 173
+13:47:31.545824 IP (tos 0x0, ttl 64, id 38093, offset 0, flags [DF], proto UDP (17), length 74)
+    192.168.0.101.36200 > 192.168.0.1.domain: [udp sum ok] 26847+ PTR? 255.255.255.255.in-addr.arpa. (46)
+13:47:31.552284 IP (tos 0x0, ttl 61, id 53993, offset 0, flags [none], proto UDP (17), length 142)
+    192.168.0.1.domain > 192.168.0.101.36200: [udp sum ok] 26847 NXDomain q: PTR? 255.255.255.255.in-addr.arpa. 0/1/0 ns: in-addr.arpa. SOA b.in-addr-servers.arpa. nstld.iana.org. 2015074908 1800 900 604800 3600 (114)
+13:47:32.033190 IP (tos 0xc0, ttl 1, id 0, offset 0, flags [DF], proto IGMP (2), length 32, options (RA))
+    192.168.0.1 > all-systems.mcast.net: igmp query v2
+13:47:32.442541 IP (tos 0x0, ttl 1, id 7429, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    192.168.0.100 > 224.0.0.251: igmp v2 report 224.0.0.251
+13:47:32.545752 IP (tos 0x0, ttl 64, id 38103, offset 0, flags [DF], proto UDP (17), length 68)
+    192.168.0.101.44127 > 192.168.0.1.domain: [udp sum ok] 20528+ PTR? 1.0.0.224.in-addr.arpa. (40)
+13:47:32.552569 IP (tos 0x0, ttl 61, id 53994, offset 0, flags [none], proto UDP (17), length 479)
+    192.168.0.1.domain > 192.168.0.101.44127: [udp sum ok] 20528 q: PTR? 1.0.0.224.in-addr.arpa. 1/6/12 1.0.0.224.in-addr.arpa. PTR all-systems.mcast.net. ns: in-addr.arpa. NS c.in-addr-servers.arpa., in-addr.arpa. NS b.in-addr-servers.arpa., in-addr.arpa. NS e.in-addr-servers.arpa., in-addr.arpa. NS f.in-addr-servers.arpa., in-addr.arpa. NS d.in-addr-servers.arpa., in-addr.arpa. NS a.in-addr-servers.arpa. ar: f.in-addr-servers.arpa. A 193.0.9.1, f.in-addr-servers.arpa. AAAA 2001:67c:e0::1, a.in-addr-servers.arpa. A 199.212.0.73, a.in-addr-servers.arpa. AAAA 2001:500:13::73, b.in-addr-servers.arpa. A 199.253.183.183, b.in-addr-servers.arpa. AAAA 2001:500:87::87, c.in-addr-servers.arpa. A 196.216.169.10, c.in-addr-servers.arpa. AAAA 2001:43f8:110::10, d.in-addr-servers.arpa. A 200.10.60.53, d.in-addr-servers.arpa. AAAA 2001:13c7:7010::53, e.in-addr-servers.arpa. A 203.119.86.101, e.in-addr-servers.arpa. AAAA 2001:dd8:6::101 (451)
+13:47:32.552828 IP (tos 0x0, ttl 64, id 38104, offset 0, flags [DF], proto UDP (17), length 70)
+    192.168.0.101.33092 > 192.168.0.1.domain: [udp sum ok] 36973+ PTR? 251.0.0.224.in-addr.arpa. (42)
+13:47:32.559023 IP (tos 0x0, ttl 61, id 53995, offset 0, flags [none], proto UDP (17), length 127)
+    192.168.0.1.domain > 192.168.0.101.33092: [udp sum ok] 36973 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2015063130 7200 3600 604800 3600 (99)
+13:47:32.559234 IP (tos 0x0, ttl 64, id 38105, offset 0, flags [DF], proto UDP (17), length 72)
+    192.168.0.101.53656 > 192.168.0.1.domain: [udp sum ok] 12359+ PTR? 100.0.168.192.in-addr.arpa. (44)
+13:47:32.563109 IP (tos 0x0, ttl 61, id 53996, offset 0, flags [none], proto UDP (17), length 121)
+    192.168.0.1.domain > 192.168.0.101.53656: [udp sum ok] 12359 NXDomain q: PTR? 100.0.168.192.in-addr.arpa. 0/1/0 ns: 168.192.in-addr.arpa. SOA localhost. root. 1 604800 86400 2419200 604800 (93)
+13:47:33.179725 IP (tos 0x80, ttl 44, id 54238, offset 0, flags [DF], proto TCP (6), length 83)
+    ec2-54-200-129-104.us-west-2.compute.amazonaws.com.https > 192.168.0.101.58948: Flags [P.], cksum 0xb1e6 (correct), seq 3700239759:3700239790, ack 1510259236, win 111, options [nop,nop,TS val 416813834 ecr 4875327], length 31
+13:47:33.179766 IP (tos 0x0, ttl 64, id 38070, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.0.101.58948 > ec2-54-200-129-104.us-west-2.compute.amazonaws.com.https: Flags [.], cksum 0x3ff6 (correct), seq 1, ack 31, win 359, options [nop,nop,TS val 4950416 ecr 416813834], length 0
+13:47:33.241568 IP (tos 0x0, ttl 64, id 28307, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.0.101.54394 > sof02s18-in-f1.1e100.net.https: Flags [.], cksum 0x6899 (correct), seq 633299443, ack 3509314478, win 237, options [nop,nop,TS val 4950432 ecr 3090303724], length 0
+13:47:33.258686 IP (tos 0x0, ttl 58, id 41496, offset 0, flags [none], proto TCP (6), length 52)
+    sof02s18-in-f1.1e100.net.https > 192.168.0.101.54394: Flags [.], cksum 0x103d (correct), seq 1, ack 1, win 341, options [nop,nop,TS val 3090348770 ecr 4927901], length 0
+13:47:33.545826 IP (tos 0x0, ttl 64, id 38213, offset 0, flags [DF], proto UDP (17), length 73)
+    192.168.0.101.56528 > 192.168.0.1.domain: [udp sum ok] 34986+ PTR? 104.129.200.54.in-addr.arpa. (45)
+13:47:33.586887 IP (tos 0x0, ttl 61, id 53997, offset 0, flags [none], proto UDP (17), length 353)
+    192.168.0.1.domain > 192.168.0.101.56528: [udp sum ok] 34986 q: PTR? 104.129.200.54.in-addr.arpa. 1/6/6 104.129.200.54.in-addr.arpa. PTR ec2-54-200-129-104.us-west-2.compute.amazonaws.com. ns: 54.in-addr.arpa. NS arin.authdns.ripe.net., 54.in-addr.arpa. NS u.arin.net., 54.in-addr.arpa. NS r.arin.net., 54.in-addr.arpa. NS y.arin.net., 54.in-addr.arpa. NS x.arin.net., 54.in-addr.arpa. NS z.arin.net. ar: x.arin.net. A 199.71.0.63, y.arin.net. A 192.82.134.30, u.arin.net. A 204.61.216.50, arin.authdns.ripe.net. A 193.0.9.10, r.arin.net. A 199.180.180.63, z.arin.net. A 199.212.0.63 (325)
+13:47:33.587244 IP (tos 0x0, ttl 64, id 38219, offset 0, flags [DF], proto UDP (17), length 72)
+    192.168.0.101.44723 > 192.168.0.1.domain: [udp sum ok] 39995+ PTR? 33.212.58.216.in-addr.arpa. (44)
+13:47:33.591667 IP (tos 0x0, ttl 61, id 53998, offset 0, flags [none], proto UDP (17), length 516)
+    192.168.0.1.domain > 192.168.0.101.44723: [udp sum ok] 39995 q: PTR? 33.212.58.216.in-addr.arpa. 2/6/12 33.212.58.216.in-addr.arpa. PTR sof02s18-in-f1.1e100.net., 33.212.58.216.in-addr.arpa. PTR sof02s18-in-f33.1e100.net. ns: in-addr.arpa. NS e.in-addr-servers.arpa., in-addr.arpa. NS a.in-addr-servers.arpa., in-addr.arpa. NS b.in-addr-servers.arpa., in-addr.arpa. NS f.in-addr-servers.arpa., in-addr.arpa. NS d.in-addr-servers.arpa., in-addr.arpa. NS c.in-addr-servers.arpa. ar: f.in-addr-servers.arpa. A 193.0.9.1, f.in-addr-servers.arpa. AAAA 2001:67c:e0::1, a.in-addr-servers.arpa. A 199.212.0.73, a.in-addr-servers.arpa. AAAA 2001:500:13::73, b.in-addr-servers.arpa. A 199.253.183.183, b.in-addr-servers.arpa. AAAA 2001:500:87::87, c.in-addr-servers.arpa. A 196.216.169.10, c.in-addr-servers.arpa. AAAA 2001:43f8:110::10, d.in-addr-servers.arpa. A 200.10.60.53, d.in-addr-servers.arpa. AAAA 2001:13c7:7010::53, e.in-addr-servers.arpa. A 203.119.86.101, e.in-addr-servers.arpa. AAAA 2001:dd8:6::101 (488)
+13:47:34.286121 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 201)
+    192.168.0.1.48451 > 255.255.255.255.7437: [udp sum ok] UDP, length 173
+13:47:34.445263 IP (tos 0x0, ttl 64, id 59581, offset 0, flags [DF], proto UDP (17), length 51)
+    192.168.0.101.57673 > wb-in-f189.1e100.net.https: [udp sum ok] UDP, length 23
+13:47:34.546004 IP (tos 0x0, ttl 64, id 38354, offset 0, flags [DF], proto UDP (17), length 71)
+    192.168.0.101.33311 > 192.168.0.1.domain: [udp sum ok] 55929+ PTR? 189.1.102.66.in-addr.arpa. (43)
+13:47:34.551677 IP (tos 0x0, ttl 61, id 53999, offset 0, flags [none], proto UDP (17), length 481)
+    192.168.0.1.domain > 192.168.0.101.33311: [udp sum ok] 55929 q: PTR? 189.1.102.66.in-addr.arpa. 1/6/12 189.1.102.66.in-addr.arpa. PTR wb-in-f189.1e100.net. ns: in-addr.arpa. NS d.in-addr-servers.arpa., in-addr.arpa. NS f.in-addr-servers.arpa., in-addr.arpa. NS b.in-addr-servers.arpa., in-addr.arpa. NS a.in-addr-servers.arpa., in-addr.arpa. NS c.in-addr-servers.arpa., in-addr.arpa. NS e.in-addr-servers.arpa. ar: f.in-addr-servers.arpa. A 193.0.9.1, f.in-addr-servers.arpa. AAAA 2001:67c:e0::1, a.in-addr-servers.arpa. A 199.212.0.73, a.in-addr-servers.arpa. AAAA 2001:500:13::73, b.in-addr-servers.arpa. A 199.253.183.183, b.in-addr-servers.arpa. AAAA 2001:500:87::87, c.in-addr-servers.arpa. A 196.216.169.10, c.in-addr-servers.arpa. AAAA 2001:43f8:110::10, d.in-addr-servers.arpa. A 200.10.60.53, d.in-addr-servers.arpa. AAAA 2001:13c7:7010::53, e.in-addr-servers.arpa. A 203.119.86.101, e.in-addr-servers.arpa. AAAA 2001:dd8:6::101 (453)
+13:47:34.639964 IP (tos 0x0, ttl 64, id 59589, offset 0, flags [DF], proto UDP (17), length 51)
+    192.168.0.101.57673 > wb-in-f189.1e100.net.https: [udp sum ok] UDP, length 23
+13:47:34.705161 IP (tos 0x0, ttl 46, id 0, offset 0, flags [DF], proto UDP (17), length 59)
+    wb-in-f189.1e100.net.https > 192.168.0.101.57673: [udp sum ok] UDP, length 31
+13:47:35.005398 IP (tos 0x0, ttl 46, id 0, offset 0, flags [DF], proto UDP (17), length 56)
+    wb-in-f189.1e100.net.https > 192.168.0.101.57673: [udp sum ok] UDP, length 28
+13:47:37.358069 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 201)
+    192.168.0.1.48451 > 255.255.255.255.7437: [udp sum ok] UDP, length 173
+13:47:38.089955 IP (tos 0x80, ttl 44, id 54239, offset 0, flags [DF], proto TCP (6), length 52)
+    ec2-54-200-129-104.us-west-2.compute.amazonaws.com.https > 192.168.0.101.58948: Flags [F.], cksum 0x3c0b (correct), seq 31, ack 1, win 111, options [nop,nop,TS val 416815084 ecr 4950416], length 0
+13:47:38.129573 IP (tos 0x0, ttl 64, id 38071, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.0.101.58948 > ec2-54-200-129-104.us-west-2.compute.amazonaws.com.https: Flags [.], cksum 0x363d (correct), seq 1, ack 32, win 359, options [nop,nop,TS val 4951654 ecr 416815084], length 0
+13:47:38.519990 IP (tos 0x0, ttl 64, id 15036, offset 0, flags [DF], proto UDP (17), length 506)
+    192.168.0.101.49697 > sof02s17-in-f14.1e100.net.https: [udp sum ok] UDP, length 478
+13:47:38.545691 IP (tos 0x0, ttl 64, id 38816, offset 0, flags [DF], proto UDP (17), length 72)
+    192.168.0.101.57621 > 192.168.0.1.domain: [udp sum ok] 5375+ PTR? 14.212.58.216.in-addr.arpa. (44)
+13:47:38.551088 IP (tos 0x0, ttl 61, id 54000, offset 0, flags [none], proto UDP (17), length 487)
+    192.168.0.1.domain > 192.168.0.101.57621: [udp sum ok] 5375 q: PTR? 14.212.58.216.in-addr.arpa. 1/6/12 14.212.58.216.in-addr.arpa. PTR sof02s17-in-f14.1e100.net. ns: in-addr.arpa. NS b.in-addr-servers.arpa., in-addr.arpa. NS e.in-addr-servers.arpa., in-addr.arpa. NS a.in-addr-servers.arpa., in-addr.arpa. NS f.in-addr-servers.arpa., in-addr.arpa. NS d.in-addr-servers.arpa., in-addr.arpa. NS c.in-addr-servers.arpa. ar: f.in-addr-servers.arpa. A 193.0.9.1, f.in-addr-servers.arpa. AAAA 2001:67c:e0::1, a.in-addr-servers.arpa. A 199.212.0.73, a.in-addr-servers.arpa. AAAA 2001:500:13::73, b.in-addr-servers.arpa. A 199.253.183.183, b.in-addr-servers.arpa. AAAA 2001:500:87::87, c.in-addr-servers.arpa. A 196.216.169.10, c.in-addr-servers.arpa. AAAA 2001:43f8:110::10, d.in-addr-servers.arpa. A 200.10.60.53, d.in-addr-servers.arpa. AAAA 2001:13c7:7010::53, e.in-addr-servers.arpa. A 203.119.86.101, e.in-addr-servers.arpa. AAAA 2001:dd8:6::101 (459)
+13:47:38.551133 IP (tos 0x0, ttl 58, id 0, offset 0, flags [DF], proto UDP (17), length 58)
+    sof02s17-in-f14.1e100.net.https > 192.168.0.101.49697: [udp sum ok] UDP, length 30
+13:47:38.566058 IP (tos 0x0, ttl 58, id 0, offset 0, flags [DF], proto UDP (17), length 94)
+    sof02s17-in-f14.1e100.net.https > 192.168.0.101.49697: [udp sum ok] UDP, length 66
+13:47:38.591697 IP (tos 0x0, ttl 64, id 15042, offset 0, flags [DF], proto UDP (17), length 66)
+    192.168.0.101.49697 > sof02s17-in-f14.1e100.net.https: [udp sum ok] UDP, length 38
+

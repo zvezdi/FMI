@@ -14,11 +14,12 @@ class Array
 end
 
 class State
-  attr_reader :cost, :directions, :board
+  attr_reader :cost, :directions, :board, :heuristic_price
 
   def initialize(board = [], cost = 0, directions = "")
     @board = board
     @cost = cost
+    @heuristic_price = heuristic(board)
     @directions = directions
   end
 
@@ -61,10 +62,10 @@ class State
     puts @directions
   end
 
-  def heuristic_price
-    n = @board.size
+  def heuristic(board)
+    n = board.size
     overall_manhatan_distance = 0
-    @board.each_with_index do |row, i|
+    board.each_with_index do |row, i|
       row.each_with_index do |el, j|
         distance = (i - el / n).abs + (j - el % n).abs
         overall_manhatan_distance += distance

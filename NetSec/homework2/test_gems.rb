@@ -19,7 +19,7 @@ pcap.loop(:count => 1) do |this,pkt|   # :count => -1 for infinite loop, break w
   pakt << pkt
   puts "#{pkt.time} :: #{pkt.len}"
   pkt.body.each_byte {|x| print "%0.2x " % x }
-  putc "\n"
+  puts
 end
 
 puts pakt

@@ -1,3 +1,4 @@
+require 'set'
 # state is represented by array
 # each element represents a column
 # and it's value is the number of the row the qween is placed in
@@ -66,7 +67,12 @@ def move(state, column_idx)
   state[column_idx] = best_row(state, column_idx)
 end
 
+def mutate(state)
+  state[rand(state.length)] = rand(state.length)
+end
+
 def min_conflicts(state)
+  visited = Set.new(state)
   # the number of iterations should be determined dinamically
   1000000.times do |iteration|
     conflicts_array = conflicts_array(state)
@@ -74,6 +80,9 @@ def min_conflicts(state)
     return state if final?(state, conflicts_array)
     qween = select_qween(state, conflicts_array)
     move(state, qween)
+
+    mutate(state) if visited.include?(state)
+    visited << state
   end
 
   puts "Try more iterations or better initial state"

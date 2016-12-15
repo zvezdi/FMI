@@ -61,7 +61,7 @@ header {
   margin-left: 270;
   border-bottom: 1px solid #ccc;
 }
-.content {
+.main {
 	display: flex;
 }
 section, aside, footer, header, nav, hgroup {
@@ -118,7 +118,20 @@ nav li a:hover {
 .chapters {
   margin: 40 20 0 20; 
 }
+
 /*chapter styling*/
+h2 {
+  font-size: 1.3em; 
+  font-weight: semibold;
+}
+
+.content {
+  margin: 10 0 30 0;
+}
+
+.paragraph {
+  margin: 10 0;
+}
 
 /*footer styling*/
 footer {
